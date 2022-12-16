@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Title</title>
+<title>Digi</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,140 +24,220 @@
         </div>
         <div id="mainOfferContainer">
             <Button class="bfButton">Vezi ofertele BLACK FRIDAY</Button>
+            <!-- <img src="./images/moon.svg" /> -->
             <img src="./images/main_offer_banner.svg" alt="" width="800" height="auto"/>
         </div>
         <div id="serviceOffersContainer">
             <div id="serviceOffersTitle">
                 <span id="telMob">TELEFONIE MOBILA</span>
-                <img class="percent" src="./images/50%.svg" alt="digiLogo" />
+                <img class="percent" src="./images/fifty.svg" alt="50 la suta" />
                 <span id="reducere">REDUCERE LA ORICE ABONAMENT.TOT ANUL!</span>
             </div>
             <div id="serviceOffersCarousel" class="container">
-                <div class="card-carousel">
-                  <div class="card" id="1">
-                    <div class="image-container"></div>
-                    <p><b>MOBIL</b>Optim Nelimitat</p>
+              <div class="card-carousel">
+                <div class="card" id="1">
+                  <!-- <div class="image-container"></div> -->
+                  <img class="circle" src="./images/green_circle.svg" />
+                  <p>MOBIL</p>
+                  <p><b>Optim Nelimitat</b></p>
+                  <div class="prices">
+                    <p class="strikethrough price">5 €</p>
+                    <p class="price">2,5 €</p>
                   </div>
-                  <div class="card" id="2">
-                    <div class="image-container"></div>
-                    <p><b>MOBIL</b>Optim 2</p>
-                  </div>
-                  <div class="card" id="3">
-                    <div class="image-container"></div>
-                    <p><b>MOBIL</b>Optim 3</p>
-                  </div>  
+                  <p>Pe luna, un an intreg</p>
+                  <button class="vreauOfertaButton">Vreau oferta</button>
+                  <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
                 </div>
-                <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+                <div class="card" id="2">
+                  <!-- <div class="image-container"></div> -->
+                  <img class="circle" src="./images/green_circle.svg" />
+                  <p>MOBIL</p>
+                  <p><b>Optim 2</b></p>
+                  <div class="prices">
+                    <p class="strikethrough price">3 €</p>
+                    <p class="price">1,5 €</p>
+                  </div>
+                  <p>Pe luna, un an intreg</p>
+                  <button class="vreauOfertaButton">Vreau oferta</button>
+                  <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
+                </div>
+                <div class="card" id="3">
+                  <!-- <div class="image-container"></div> -->
+                  <img class="circle" src="./images/green_circle.svg" />
+                  <p>MOBIL</p>
+                  <p><b>Optim 3</b></p>
+                  <div class="prices">
+                    <p class="strikethrough price">2 €</p>
+                    <p class="price">1 €</p>
+                  </div>
+                  <p>Pe luna, un an intreg</p>
+                  <button class="vreauOfertaButton">Vreau oferta</button>
+                  <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
+                </div>  
               </div>
+              <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+            </div>
         </div>
         <div id="phoneOffersContainer">
             <div id="phoneOffersTitle">
                 <span id="phoneTitle1">ADAUGA TELEFONUL PREFERAT</span>
-                <span id="phoneTitle2">Il comanzi rapid, ajunge la tine prin curier si il platesti in 12 rate fixe</span>
+                <span id="phoneTitle2">Il comanzi rapid, ajunge la tine prin curier si il platesti in <b>12 rate</b> fixe!</span>
             </div>
             <div id="phoneOffersCarousel">
                 <div class="phoneContainer">
                     <img class="motorolap1" src="./images/motorola_edge_20.svg" alt="Motorola Edge 20" />
-                    <p>Motorola Edge 20</p>
-                    <p>Avans 299 lei si 108 lei x 12 rate</p>
+                    <p class="textUnderPhone1"><b>Motorola Edge 20</b></p>
+                    <p class="textUnderPhone2">Avans <b>299 lei</b> si <b>108 lei</b> x 12 rate</p>
                     <p>Pret intreg:</p>
-                    <p>1599 lei</p>
-                    <button>Vezi detalii</button>
+                    <p class="phonePrice">1599 lei</p>
+                    <button class="pb">Vezi detalii</button>
                 </div>
                 <div class="phoneContainer">
                     <img class="motorolap2" src="./images/motorola_edge_20_pro.svg" alt="Motorola Edge 20 Pro" />
-                    <p class="textUnderPhone1">Motorola Edge 20 Pro</p>
-                    <p class="textUnderPhone2">Avans 799 lei si 141 lei x 12 rate</p>
+                    <p class="textUnderPhone1"><b>Motorola Edge 20 Pro</b></p>
+                    <p class="textUnderPhone2">Avans <b>799 lei </b>si <b>141 lei</b> x 12 rate</p>
                     <p>Pret intreg:</p>
-                    <p>2499 lei</p>
-                    <button>Vezi detalii</button>
+                    <p class="phonePrice">2499 lei</p>
+                    <button class="pb">Vezi detalii</button>
                 </div>
             </div>
         </div>
         <div id="internetOffersContainer">
             <div id="internetOffersTitle">
-                <p>INTERNET</p>
-                <div id="internetPhotos">
-                    <img id="sheep" src="./images/sheep.svg" />
-                    <img id="router" src="./images/router.svg" />
-                </div>
-                <p>50% REDUCERE UN AN LA ORICE ABONAMENT NOU SAU UPGRADE</p>
+              <id class="ab">
+                <p class="internetText">INTERNET</p>
+              </id>
+              <id class="ab" id="internetPhotos">
+                <img id="sheep" src="./images/sheep.svg" />
+                <img id="router" src="./images/router.svg" />
+              </id>
+              <id class="ab">
+                <p class="internetText">50% REDUCERE UN AN LA ORICE ABONAMENT NOU SAU UPGRADE</p>
+              </id>
             </div>
             <div id="internetOffersCarousel">
-                <div class="container">
-                    <div class="card-carousel-2">
-                      <div class="card" id="1">
-                        <!-- <img id="internetCircle" src="./images/internet_circle.svg"/> -->
-                        <p>Internet</p>
-                        <p>Fiberlink 1000</p>
-                        <p>20 lei</p>
-                        <p>pe luna, un an intreg</p>
-                        <p>Vreau oferta</p>
-                        <p>Vezi detalii abonament</p>
-                      </div>
-                      <div class="card" id="2">
-                        <p>Internet</p>
-                        <p>Fiberlink 1000</p>
-                        <p>20 lei</p>
-                        <p>pe luna, un an intreg</p>
-                        <p>Vreau oferta</p>
-                        <p>Vezi detalii abonament</p>
-                      </div> 
+                  <div id="internetOffer1">
+                    <img class="circle" src="./images/blue_circle.svg" />
+                    <p>Internet</p>
+                    <p><b>Fiberlink 1000</b></p>
+                    <div class="prices">
+                      <p class="strikethrough price">40 lei</p>
+                      <p class="price">20 lei</p>
                     </div>
-                    <a href="#" class="visuallyhidden card-controller-2">Carousel controller</a>
+                    <p>Pe luna, un an intreg</p>
+                    <button class="vreauOfertaButton">Vreau oferta</button>
+                    <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
+                  </div>
+                  <div id="internetOffer2">
+                    <img class="circle" src="./images/blue_circle.svg" />
+                    <p>Internet</p>
+                    <p><b>Fiberlink 500</b></p>
+                    <div class="prices">
+                      <p class="strikethrough price">30 lei</p>
+                      <p class="price">15 lei</p>
+                    </div>
+                    <p>Pe luna, un an intreg</p>
+                    <button class="vreauOfertaButton">Vreau oferta</button>
+                    <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
                   </div>
             </div>
         </div>
         <div id="tvOffersContainer">
             <div id="tvOffersTitle">
-                <p>Televiziune</p>
-                <img id="tvPhoto" src="./images/oaie.svg" />
-                <p>50% reducere un an la orice abonament nou sau upgrade!</p>
+                <p class="tvText ab">Televiziune</p>
+                <img class="tvPhoto ab" src="./images/oaie.svg" />
+                <p class="tvText ab">50% reducere un an la orice abonament nou sau upgrade!</p>
             </div>
             <div id="tvOffersCarousel">
-                <div class="container">
-                    <div class="card-carousel-3">
-                      <div class="card" id="1">
-                        <div class="image-container"></div>
-                        <p><b>tv</b>Nelimitat</p>
-                      </div>
-                      <div class="card" id="2">
-                        <div class="image-container"></div>
-                        <p><b>tv</b>cablu</p>
-                      </div>
-                      <div class="card" id="3">
-                        <div class="image-container"></div>
-                        <p><b>tv</b>digital</p>
-                      </div>  
+              <div class="container">
+                <div class="card-carousel-2">
+                  <div class="card" id="1">
+                    <img class="circle" src="./images/purple_circle.svg" />
+                    <p>TV</p>
+                    <p><b>Analogic</b></p>
+                    <div class="prices">
+                      <p class="strikethrough price">26 lei</p>
+                      <p class="price">13 lei</p>
                     </div>
-                    <a href="#" class="visuallyhidden card-controller-3">Carousel controller</a>
+                    <p>Pe luna, un an intreg</p>
+                    <button class="vreauOfertaButton">Vreau oferta</button>
+                    <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
                   </div>
+                  <div class="card" id="2">
+                    <img class="circle" src="./images/purple_circle.svg" />
+                    <p>TV</p>
+                    <p><b>Digital</b></p>
+                    <div class="prices">
+                      <p class="strikethrough price">30 lei</p>
+                      <p class="price">15 lei</p>
+                    </div>
+                    <p>Pe luna, un an intreg</p>
+                    <button class="vreauOfertaButton">Vreau oferta</button>
+                    <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
+                  </div>
+                  <div class="card" id="3">
+                    <img class="circle" src="./images/purple_circle.svg" />
+                    <p>TV</p>
+                    <p><b>Satelit</b></p>
+                    <div class="prices">
+                      <p class="strikethrough price">25 lei</p>
+                      <p class="price">12,5 lei</p>
+                    </div>
+                    <p>Pe luna, un an intreg</p>
+                    <button class="vreauOfertaButton">Vreau oferta</button>
+                    <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
+                  </div>  
+                </div>
+                <a href="#" class="visuallyhidden card-controller-2">Carousel controller</a>
+              </div>
             </div>
         </div>
         <div id="extraOffersContainer">
             <div id="extraOffersTitle">
-                <p>Extraoptiuni</p>
-                <p>50% reducere un orice extraoptiuni doresti un an intreg!</p>
+                <p id="extraText1">Extraoptiuni</p>
+                <p id="extraText2"><b>50% reducere</b> un orice extraoptiuni doresti <b>un an intreg</b>!</p>
             </div>
-            <div id="extraOffersCarousel">
-                <div class="container">
-                    <div class="card-carousel-4">
-                      <div class="card" id="1">
-                        <div class="image-container"></div>
-                        <p><b>extra</b> Nelimitat</p>
-                      </div>
-                      <div class="card" id="2">
-                        <div class="image-container"></div>
-                        <p><b>extra</b> 2</p>
-                      </div>
-                      <div class="card" id="3">
-                        <div class="image-container"></div>
-                        <p><b>extra</b> 3</p>
-                      </div>  
+              <div class="container">
+                <div class="card-carousel-3">
+                  <div class="card" id="1">
+                    <p>EXTRAOPTIUNE TV</p>
+                    <p><b>4K</b></p>
+                    <p>Vezi cele mai tari meciuri in ultra HD</p>
+                    <div class="prices">
+                      <p class="strikethrough price">5 lei</p>
+                      <p class="price">2,5 lei</p>
                     </div>
-                    <a href="#" class="visuallyhidden card-controller-4">Carousel controller</a>
+                    <p>Pe luna, un an intreg</p>
+                    <button class="vreauOfertaButton">Vreau oferta</button>
+                    <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
                   </div>
-            </div>
+                  <div class="card" id="2">
+                    <p>EXTRAOPTIUNE TV</p>
+                    <p><b>MAXPAK</b></p>
+                    <p>Vezi toate canalele <b>HBO</b> si <b>Cinemax.</b>In plus, ai acces la <b>HBO GO</b></p>
+                    <div class="prices">
+                      <p class="strikethrough price">15 lei</p>
+                      <p class="price">7,5 lei</p>
+                    </div>
+                    <p>Pe luna, un an intreg</p>
+                    <button class="vreauOfertaButton">Vreau oferta</button>
+                    <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
+                  </div>
+                  <div class="card" id="3">
+                    <p>EXTRAOPTIUNE TV</p>
+                    <p><b>FilmNow</b></p>
+                    <p>Vezi filme bune pe saturate</p>
+                    <div class="prices">
+                      <p class="strikethrough price">1,5 lei</p>
+                      <p class="price">3 lei</p>
+                    </div>
+                    <p>Pe luna, un an intreg</p>
+                    <button class="vreauOfertaButton">Vreau oferta</button>
+                    <p class="veziDetalii"><b>Vezi detalii abonament >></b></p>
+                  </div>  
+                </div>
+                <a href="#" class="visuallyhidden card-controller-3">Carousel controller</a>
+              </div>
         </div>
     </div>
     <div id="footerContainer">
@@ -169,7 +249,6 @@
         <div class="footer">Serviciul HBO GO este gratuit doar împreună cu un abonament de televiziune digitală prin cablu sau satelit și un abonament de internet de la DIGI, disponibil la aceeași adresă 
             și cu extraopțiunea HBO sau MAXPAK activă.
             </div>
-            
         <script src="functions.js"></script>
     </div>
 </body>

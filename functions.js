@@ -4,8 +4,6 @@ const cardsContainer2 = document.querySelector(".card-carousel-2");
 const cardsController2 = document.querySelector(".card-carousel-2 + .card-controller-2");
 const cardsContainer3 = document.querySelector(".card-carousel-3");
 const cardsController3 = document.querySelector(".card-carousel-3 + .card-controller-3");
-const cardsContainer4 = document.querySelector(".card-carousel-4");
-const cardsController4 = document.querySelector(".card-carousel-4 + .card-controller-4");
 
 
 class DraggingEvent {
@@ -328,4 +326,3 @@ class CardCarousel extends DraggingEvent {
 const carousel = new CardCarousel(cardsContainer);
 const carousel2 = new CardCarousel(cardsContainer2);
 const carousel3 = new CardCarousel(cardsContainer3);
-const carousel4 = new CardCarousel(cardsContainer4);
